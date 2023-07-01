@@ -123,7 +123,7 @@ export default function Mintingcomponent() {
                         <div className="ml-4 mr-4 mt-4 mb-4 text-md font-semibold">{msg.name}</div>
                         <div className="flex justify-center items-center">
                             <img
-                                className="border-2 border-white rounded-2xl outline-2 mb-3"
+                                className="border-2 border-white rounded-2xl outline-3 mb-3"
                                 src={msg.pic}
                                 height="300"
                                 width="300"
