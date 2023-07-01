@@ -1,1 +1,2 @@
-# testnet-nft-mint
+# NFT-drop-dapp
+Simple nfts minting site
