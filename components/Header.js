@@ -7,7 +7,7 @@ export default function Header() {
                 <div className="flex items-center ">
                     <div className="text-white font-bold font-Rubik lg:text-2xl sm:text-lg">
                         {/* <img className={styles.imgFlappy}></img> */}
-                        FlappyOwl
+                        NFT Drop Dapp
                     </div>
                 </div>
                 <ConnectButton

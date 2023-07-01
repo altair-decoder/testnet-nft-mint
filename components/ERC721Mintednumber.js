@@ -48,8 +48,8 @@ export default function ERC721Mintednumber(props) {
     }, [mintCostData])
     return (
         <div>
-            <div className="flex justify-center outline-dashed rounded-2xl ...">
-                <div className="font-bold text-sm text-slate-700 ">
+            <div className="flex justify-center outline rounded-2xl ...">
+                <div className="font-bold text-sm text-slate-400 ">
                     {ethers.utils.formatEther(mintCostAmount).toString()} ethers/item
                 </div>
             </div>

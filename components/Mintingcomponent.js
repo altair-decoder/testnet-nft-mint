@@ -117,7 +117,7 @@ export default function Mintingcomponent() {
             return (
                 <div
                     key={msg.id}
-                    className="ml-4 mr-4 mt-4 mb-4 text-white font-Prompt rounded-2xl outline-dashed shadow-lg shadow-indigo-500/50"
+                    className="ml-4 mr-4 mt-4 mb-4 text-white font-Prompt rounded-2xl outline-dashed"
                 >
                     <div className="ml-4 mr-4 mt-4 mb-4">
                         <div className="ml-4 mr-4 mt-4 mb-4 text-md font-semibold">{msg.name}</div>
@@ -194,7 +194,7 @@ export default function Mintingcomponent() {
     return (
         <div>
             <div>
-                <div className="mt-8 grid 2xl:grid-cols-1 xl:grid-cols-1 lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-40 items-center justify-center text-center">
+                <div className="mt-8 grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-40 items-center justify-center text-center">
                     {messagejson}
                 </div>
             </div>

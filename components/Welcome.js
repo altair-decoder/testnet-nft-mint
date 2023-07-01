@@ -31,7 +31,7 @@ export default function Welcome() {
                             Wellcome To The Club
                         </h1>
                         <h1 className="mt-5 ml-11 mr-11 font-Rubik lg:text-2xl md:text-md sm:text-sm font-light text-white">
-                        "Flappy Owl is ascii art fully onchain nfts use ERC721A based for gasless transaction, uniquely generated and stored on the blockchain forever, No IPFS or external storage"
+                        If this involves your company's copyright issues, please contact me and I will remove it immediately.
                         </h1>
                     </div>
                     <hr />
