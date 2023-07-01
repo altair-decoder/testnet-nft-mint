@@ -7,7 +7,7 @@ export default function Home() {
             <Head>
                 <title>NFT Drop Dapp || testnet minting site of goerli network</title>
                 <meta name="description" content="testnet minting site of goerli network" />
-                <link rel="icon" href="/N32.ico" />
+                <link rel="icon" href="/nftdroptest32.ico" />
             </Head>
             <Header />
             <Welcome />
