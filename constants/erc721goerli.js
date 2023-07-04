@@ -103,16 +103,6 @@ export const erc721goerli = [
         id: 11,
         chain: 5,
         symbol: "eth",
-        name: "MPunks",
-        address: "0x05fa539739B7C02F6C57D3d858bE63427ff9A37c",
-        pic: "https://i.seadn.io/gae/V2BZiBggsYYsOSrqW0Jx94pxALGZLYajG0Ac9vVBnJl-BaShs4bisK5iOz33vcl0JN_xGmgDM-OXjRgoRyyR1jJ17zUU00POAxu_pAY?auto=format&w=256",
-        scan: "https://goerli.etherscan.io/address/",
-        opensea: "minepunks",
-    },
-    {
-        id: 12,
-        chain: 5,
-        symbol: "eth",
         name: "MFRG",
         address: "0x6978fbD70CddC3e7bF6dE132417Cf520848b2Ad0",
         pic: "https://i.seadn.io/gae/J2iIgy5_gmA8IS6sXGKGZeFVZwhldQylk7w7fLepTE9S7ICPCn_dlo8kypX8Ju0N6wvLVOKsbP_7bNGd8cpKmWhFQmqMXOC8q2sOdqw?auto=format&dpr=1&w=256",
@@ -120,7 +110,7 @@ export const erc721goerli = [
         opensea: "mfrg",
     },
     {
-        id: 13,
+        id: 12,
         chain: 5,
         symbol: "eth",
         name: "Colorful Ape Club Goerli",
@@ -128,5 +118,15 @@ export const erc721goerli = [
         pic: "https://i.seadn.io/gae/KbWlmQxPV7dH0WysETwd_V8hT_3yVbR_dgvuFL1o9ppLWYAqCGgAKqtN9peUFteiJop78D6DbD5OMi_JaRVJFQ-gQi68SIAKOVKa6A?auto=format&w=256",
         scan: "https://goerli.etherscan.io/address/",
         opensea: "colorful-ape-club-goerli",
-    },
+    }
+    // {
+    //     id: 11,
+    //     chain: 5,
+    //     symbol: "eth",
+    //     name: "MPunks",
+    //     address: "0x05fa539739B7C02F6C57D3d858bE63427ff9A37c",
+    //     pic: "https://i.seadn.io/gae/V2BZiBggsYYsOSrqW0Jx94pxALGZLYajG0Ac9vVBnJl-BaShs4bisK5iOz33vcl0JN_xGmgDM-OXjRgoRyyR1jJ17zUU00POAxu_pAY?auto=format&w=256",
+    //     scan: "https://goerli.etherscan.io/address/",
+    //     opensea: "minepunks",
+    // },
 ]
