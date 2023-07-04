@@ -57,11 +57,11 @@ export default function ERC721Mintednumber(props) {
                 <table className="border-separate border-spacing-2 ...">
                     <tbody>
                         <tr>
-                            <td className="font-light text-sm">Minted</td>
-                            <td className="font-bold text-sm">{tsupply}</td>
-                            <td className="font-light text-sm">/</td>
-                            <td className="font-light text-sm">MaxSupply</td>
-                            <td className="font-bold text-sm">{msupply}</td>
+                            <td className="font-light text-xs">Minted</td>
+                            <td className="font-bold text-xs">{tsupply}</td>
+                            <td className="font-light text-xs">/</td>
+                            <td className="font-light text-xs">MaxSupply</td>
+                            <td className="font-bold text-xs">{msupply}</td>
                         </tr>
                     </tbody>
                 </table>

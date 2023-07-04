@@ -194,7 +194,7 @@ export default function Mintingcomponent() {
     return (
         <div>
             <div>
-                <div className="mt-8 grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-40 items-center justify-center text-center">
+                <div className="mt-8 grid 2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 items-center justify-center text-center">
                     {messagejson}
                 </div>
             </div>
