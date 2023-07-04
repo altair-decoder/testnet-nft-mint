@@ -134,17 +134,17 @@ export default function ERC721MintButton(props) {
                         <table className="border-separate border-spacing-2 ...">
                             <tbody>
                                 <tr>
-                                    <td className="font-light text-sm">You Minted</td>
-                                    <td className="font-bold text-sm">{mintCountdata}</td>
-                                    <td className="font-bold text-sm">/</td>
-                                    <td className="font-light text-sm">Max Mint</td>
-                                    <td className="font-bold text-sm">{mintLimit}</td>
+                                    <td className="font-light text-xs">You Minted</td>
+                                    <td className="font-bold text-xs">{mintCountdata}</td>
+                                    <td className="font-bold text-xs">/</td>
+                                    <td className="font-light text-xs">Max Mint</td>
+                                    <td className="font-bold text-xs">{mintLimit}</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
 
-                    <div className="mt-8 grid grid-cols-3 gap-5 items-center justify-center text-center">
+                    <div className="mt-8 grid grid-cols-3 gap-8 items-center justify-center text-center">
                         <button className={styles.mintButton} onClick={decrease}>
                             -
                         </button>
@@ -194,7 +194,7 @@ export default function ERC721MintButton(props) {
                 <div>
                     <div className="">You Minted ? / Mint Limit {mintLimit}</div>
 
-                    <div className="mt-8  grid grid-cols-3 gap-5 items-center justify-center text-center">
+                    <div className="mt-8  grid grid-cols-3 gap-8 items-center justify-center text-center">
                         <button className={styles.mintButton} onClick={connectwalletnotice}>
                             -
                         </button>
