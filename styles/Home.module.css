@@ -1,4 +1,6 @@
 .navBar {
+    width: 100%;
+    position: fixed;
     height: 4rem;
     display: flex;
     align-items: center;
@@ -252,3 +254,17 @@
 .collectionButton:not(:disabled):active {
     transform: translateY(0.125rem);
 }
+
+/* Partner Section */
+@keyframes scroll {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  
+  .animate {
+    animation: scroll 15s linear infinite;
+  }
