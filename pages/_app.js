@@ -1,3 +1,4 @@
+import Head from "next/head"
 import "../styles/globals.css"
 import { WagmiConfig, configureChains, createClient, chain } from "wagmi"
 import { infuraProvider } from "wagmi/providers/infura"
@@ -7,6 +8,7 @@ import { RainbowKitProvider, darkTheme } from "@rainbow-me/rainbowkit"
 import "@rainbow-me/rainbowkit/styles.css"
 import { connectorsForWallets } from "@rainbow-me/rainbowkit"
 import { publicProvider } from "wagmi/providers/public"
+import Layout from "components/Layout"
 import {
     argentWallet,
     braveWallet,
@@ -85,6 +87,12 @@ const WagmiClient = createClient({
 function MyApp({ Component, pageProps }) {
     return (
         <div>
+            
+            <Head>
+                <title>NFT Drop Dapp || testnet minting site of goerli network</title>
+                <meta name="description" content="testnet minting site of goerli network" />
+                <link rel="icon" href="/nftdroptest32.ico" />
+            </Head>
             <WagmiConfig client={WagmiClient}>
                 <RainbowKitProvider
                     chains={chains}
@@ -96,7 +104,13 @@ function MyApp({ Component, pageProps }) {
                     })}
                 >
                     <ToastProvider autoDismiss={true} autoDismissTimeout="4000">
-                        <Component {...pageProps} name="Access-Control-Allow-Origin" value="*" />
+                        <Layout>
+                            <Component
+                                {...pageProps}
+                                name="Access-Control-Allow-Origin"
+                                value="*"
+                            />
+                        </Layout>
                     </ToastProvider>
                 </RainbowKitProvider>
             </WagmiConfig>

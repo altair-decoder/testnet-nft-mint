@@ -1,5 +1,4 @@
 import Mintingcomponent from "./Mintingcomponent"
-import Partnerscomponent from "./Partnerscomponent"
 import Disclaimer from "./Disclaimer"
 import { useState, useEffect } from "react"
 import { useNetwork } from "wagmi"
@@ -32,8 +31,6 @@ export default function Welcome() {
                     <div className="mt-20">
                         <Mintingcomponent />
                     </div>
-                    <p className="mb-10"></p>
-                    <Partnerscomponent />
                 </div>
             </div>
         </div>

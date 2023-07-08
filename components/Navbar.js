@@ -7,9 +7,10 @@ import NavItem from "./NavItem";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
-  { text: "Roadmap", href: "#roadmap" },
-  { text: "About", href: "#about" },
-  { text: "Faq", href: "#faq" },
+  { text: "Nft Drop", href: "/nft-drop" },
+  { text: "Roadmap", href: "/roadmap" },
+  { text: "About", href: "/about" },
+  // { text: "Faq", href: "/faq" },
 ];
 const Navbar = () => {
   const mediaCheck = useMediaPredicate("(min-width: 767px)");

@@ -6,7 +6,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    background-color: #3b6783;
+    /* background-color: #3b6783; */
+    background-color: #425889c9;
+    backdrop-filter:blur(15px);
 }
 
 .bg-alchemy {
