@@ -90,6 +90,29 @@ nav {
     -webkit-text-stroke-color: #000;
     text-transform: uppercase;
 }
+.carouselContainer {
+    margin: 0;
+    padding-top: 190px;
+    min-height: 100vh;
+    font-family: "Source Sans Pro", arial, sans-serif;
+    font-weight: 300;
+    color: #a5ff6e;
+    box-sizing: border-box;
+}
+.carouselContainer > p {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.carouselSections {
+    margin: 0;
+    padding-top: 190px;
+    min-height: 100vh;
+    font-family: "Source Sans Pro", arial, sans-serif;
+    font-weight: 300;
+    color: #a5ff6e;
+    box-sizing: border-box;
+}
 .roadmap {
     display: flex;
     justify-content: space-evenly;
@@ -227,6 +250,14 @@ nav {
     content: "–";
     margin-right: 0.5em;
 }
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 10;
+    padding: 0;
+}
+
 @media screen and (min-width: 768px) {
     .entry .body p {
         font-size: 14px;
