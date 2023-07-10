@@ -151,7 +151,6 @@ nav {
     color: #fff;
     font-size: 48px;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #000;
     text-transform: uppercase;
     margin: 0;
 }
@@ -311,6 +310,12 @@ nav {
 
     .nav__link:hover:before {
         width: 100%;
+    }
+    
+    @media (min-width: 1298px) {
+        .roadmap-title {
+            margin: 0px 0px 0px 246px;
+        }
     }
 
     /* .about-title {
