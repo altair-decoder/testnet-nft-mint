@@ -151,6 +151,7 @@ export default function Home() {
         autoplaySpeed: 2000,
         cssEase: "linear",
         arrows: false,
+        className: "center",
         centerMode: true,
         centerPadding: '50px',
         responsive: [
@@ -301,7 +302,7 @@ export default function Home() {
             <div className="h-full ...">
                 <div className="items-center justify-items-center bg-cover bg-gradient-to-r from-indigo-500 via-blue-500 to-sky-400 relative">
                     <div className="carouselContainer">
-                        <p className="text-[#fff] text-5xl mb-10 xs:text:sm sm:text-lg md:text-5xl xl:text-5xl">
+                        <p className="text-[#fff] text-5xl mb-10 sm:text-3xl md:text-5xl xl:text-5xl">
                             Available collections
                         </p>
                         {/* <Container>
@@ -347,10 +348,8 @@ export default function Home() {
                             {Collections.map(({ name, symbol, pic, opensea }, i) => (
                                 <div className="justify-ceter mx-auto" key={i}>
                                     <img
-                                        className="imgSlide border-2 border-white rounded-2xl outline-3 mb-3"
+                                        className="imgSlide border-2 border-white rounded-2xl outline-3 mb-3 sm:h-40 sm:w-40 md:h-64 md:w-64 lg:h-72 lg:w-72"
                                         src={pic}
-                                        height="300"
-                                        width="300"
                                     ></img>
                                     <p className="text-[#fff] text-bold ml-3">{name}</p>
                                 </div>
