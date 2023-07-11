@@ -89,19 +89,15 @@ function MyApp({ Component, pageProps }) {
         <div>
             <Head>
                 <title>NFT Drop Dapp || testnet minting site of goerli network</title>
-                <meta property="og:title" content="European Travel Destinations" />
+                <meta property="og:title" content="NFT Drop Dapp" />
                 <meta property="og:type" content="article" />
                 <meta
                     property="og:description"
-                    content="🎉️ infos:
-                    🎁️ Price: 0.005 Eth
-                    🎁️ Supply: 21000 FlappuOwl.
-                    "
+                    content="testnet minting site of goerli network, you can mint any nft testnet"
                 />
-                <meta property="og:image" content="https://i.seadn.io/gcs/files/99b010c24afd542698456cc0df69a2c2.jpg" />
-                <meta property="og:url" content="https://opensea.io/collection/flappyowl" />
+                <meta property="og:image" content="https://nftdrop-dapp.vercel.app/nftdroptest32.ico" />
+                <meta property="og:url" content="https://nftdrop-dapp.vercel.app" />
                 <meta name="twitter:card" content="summary_large_image" />
-                {/* <meta name="description" content="testnet minting site of goerli network" /> */}
                 <link rel="icon" href="/nftdroptest32.ico" />
             </Head>
             <WagmiConfig client={WagmiClient}>
