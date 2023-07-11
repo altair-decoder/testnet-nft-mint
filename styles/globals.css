@@ -61,7 +61,7 @@ nav {
 }
 .nav__menu-list.active {
     right: 0;
-    background-color: #3b67838f;
+    background-color: #3a3da9;
     backdrop-filter: blur(8px);
 }
 .nav__item.active {
