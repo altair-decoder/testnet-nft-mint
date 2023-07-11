@@ -87,10 +87,21 @@ const WagmiClient = createClient({
 function MyApp({ Component, pageProps }) {
     return (
         <div>
-            
             <Head>
                 <title>NFT Drop Dapp || testnet minting site of goerli network</title>
-                <meta name="description" content="testnet minting site of goerli network" />
+                <meta property="og:title" content="European Travel Destinations" />
+                <meta property="og:type" content="article" />
+                <meta
+                    property="og:description"
+                    content="🎉️ infos:
+                    🎁️ Price: 0.005 Eth
+                    🎁️ Supply: 21000 FlappuOwl.
+                    "
+                />
+                <meta property="og:image" content="https://i.seadn.io/gcs/files/99b010c24afd542698456cc0df69a2c2.jpg" />
+                <meta property="og:url" content="https://opensea.io/collection/flappyowl" />
+                <meta name="twitter:card" content="summary_large_image" />
+                {/* <meta name="description" content="testnet minting site of goerli network" /> */}
                 <link rel="icon" href="/nftdroptest32.ico" />
             </Head>
             <WagmiConfig client={WagmiClient}>
